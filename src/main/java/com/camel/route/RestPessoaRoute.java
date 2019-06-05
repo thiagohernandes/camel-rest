@@ -70,7 +70,6 @@ public class RestPessoaRoute extends RouteBuilder{
 //		.log(" LOG 1 ---------> ${body}")
 //			.doTry()
 //			    .unmarshal(xmlDataFormat)
-//		        .process(new PessoaProcessor())
 //		        .marshal(jacksonDataFormat)
 //		        .log(" LOG 2 ---------> ${body}")
 //	        .doCatch(Exception.class)
